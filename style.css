@@ -3,10 +3,12 @@
 
 body {
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
 }
 header {
     background-color: #1F2937;
-    height: 300x;
+    height: 450px;
     
 }
 .links {
@@ -56,6 +58,14 @@ header {
     max-width: 450px;
 }
 
+footer{
+    /* background-color: #1F2937; */
+    background-color: aquamarine;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* Middle slide part of website */
