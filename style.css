@@ -34,6 +34,10 @@ header {
     gap: 20px;
 }
 
+.half-chicken{
+    max-height: 300px;
+    max-width: 450px;
+}
 
 
 
