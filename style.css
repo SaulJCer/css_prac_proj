@@ -5,6 +5,7 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
+    gap: 12px
 }
 header {
     background-color: #1F2937;
@@ -60,6 +61,16 @@ header {
 
 .boxes {
     display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.box {
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 50px;
+
 }
 
 
