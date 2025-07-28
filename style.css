@@ -5,14 +5,15 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    /* flex: 1; */
+    /* gap: 12px; */
     /* overflow-x: hidden; */
     /* treid to hide white lines on the side */
 }
 header {
     background-color: #1F2937;
-    height: 450px;
-    
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 h1{
@@ -47,6 +48,11 @@ h1{
     gap: 20px;
 }
 
+.topLinksR, .left-tpb p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .topPageBox p {
     color: lightgrey;
     display: flex;
@@ -59,6 +65,7 @@ h1{
     padding-top: 60px;
     display: flex;
     gap: 10px;
+    background-color: #1F2937;
 }
 
 
@@ -107,8 +114,9 @@ h1{
 }
 
 .box-container h2 {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
@@ -144,7 +152,7 @@ h1{
 
 /* Styling for quote */
 .quote-box {
-    background-color: rgba(225, 225, 225, 0.817);
+    background-color:  #E5E7EB;
 }
 
 .quote {
@@ -154,7 +162,9 @@ h1{
 }
 
 .quote p {
-    font-size: 25px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
     margin: 5% 25%;
     margin-bottom: 5px;
 }
@@ -175,7 +185,7 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 12%;
-    background-color: rgb(78, 81, 249);
+    background-color: #3882f6;
     margin: 4% 12%;
     border-radius: 10px;
     color: #f9faf8;
@@ -188,7 +198,7 @@ h1{
 .coupon button {
     border-color: white;
     border-width: 3px;
-    background-color: rgb(78, 81, 249);
+    background-color: #3882f6;
     height: 80%;
     font-size: 30px;
     color: #f9faf8;
@@ -196,8 +206,7 @@ h1{
 
 /* Styling for coupon */
 footer{
-    /* background-color: #1F2937; */
-    background-color: aquamarine;
+    background-color: #1F2937;
     height: 50px;
     display: flex;
     align-items: center;
