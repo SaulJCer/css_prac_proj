@@ -5,12 +5,19 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
-    gap: 12px
+    gap: 12px;
 }
 header {
     background-color: #1F2937;
     height: 450px;
     
+}
+
+h1{
+    /* For Headline text */
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 .links {
     color: white;
@@ -27,6 +34,7 @@ header {
 .topLinks{
     
     padding-left: 200px;
+    font-size: 120% ;
 }
 
 .topLinksR {
@@ -37,10 +45,32 @@ header {
     gap: 20px;
 }
 
+.topPageBox p {
+    color: lightgrey;
+    display: flex;
+    justify-content: left;
+
+}
+
+
 .topPageBox {
     padding-top: 60px;
     display: flex;
     gap: 20px;
+}
+
+
+/* Chicken button on top */
+.chicken-btn {
+    display: flex;
+    justify-content: left;
+    background-color: rgb(8, 160, 255);
+    color: #f9faf8;
+    /* font-size: 12px; */
+    font-weight: bold;
+    border-radius: 15%;
+    padding: 7px;
+    width: 25%;
 }
 
 .left-tpb {
@@ -73,7 +103,22 @@ header {
 
 }
 
+.box-header{
+    display: flex;
+    justify-content: center;
+}
 
+
+/* Styling for coupon */
+
+.coupon {
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    background-color: rgb(78, 81, 249);
+    margin: 4% 12%;
+    border-radius: 10px;
+}
 footer{
     /* background-color: #1F2937; */
     background-color: aquamarine;
