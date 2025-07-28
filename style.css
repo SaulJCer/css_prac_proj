@@ -6,7 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    /* treid to hide white lines on the side */
 }
 header {
     background-color: #1F2937;
@@ -145,14 +146,14 @@ h1{
 
 .quote p {
     font-size: 25px;
-    margin: 75px;
+    margin: 5% 25%;
     margin-bottom: 5px;
 }
 
 .quote-box h3 {
     display: flex;
     justify-content: right;
-    padding-right: 10%;
+    padding-right: 25%;
     margin-bottom: 50px;
 }
 
